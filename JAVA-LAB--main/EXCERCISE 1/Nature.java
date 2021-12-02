@@ -31,6 +31,7 @@ class Nature
         int a,b,c;
 
         Scanner s = new Scanner(System.in);
+        System.out.println("Enter the Coefficients: ");
 
         a = s.nextInt();
         b = s.nextInt();
