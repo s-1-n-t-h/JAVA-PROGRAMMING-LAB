@@ -27,6 +27,7 @@ class Savings extends Accounts
     {
         amount = balance*ri;
         System.out.println("\nIntrest earned: "+amount);
+        display();
     }
     void display()
     {
@@ -67,9 +68,12 @@ class Savings extends Accounts
         
         int c;
         Accounts A = new Savings();
+        Savings S = new Savings();
+        CurrentAccount C = new CurrentAccount();
+
         while(true)
         {
-            System.out.println("\n1. Details\n2. Withdrwal\n3. Deposit\n4.Over Draft Limit\n5.Exit");
+            System.out.println("\n1. Details\n2. Withdrwal\n3. Deposit\n4 .Over Draft Limit\n5. Intrest earned\n6. Exit");
 
             c = A.s.nextInt();
             if(c==1)
@@ -86,8 +90,11 @@ class Savings extends Accounts
             }
             else if(c==4)
             {
-                CurrentAccount ca = new CurrentAccount();
-                ca.OverDraft();
+                C.OverDraft();
+            }
+            else if(c==5)
+            {
+                S.CalAmount();
             }
             else
             {
