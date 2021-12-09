@@ -49,11 +49,11 @@ class Partial_Time_Employee extends Employee
 
     void Calculate_Pay()
     {
-        System.out.println("\nPart Time Employee: ");
         System.out.println("\nAmount Payable: "+working_hours*rate_per_hour);
     }
     void display()
     {
+        System.out.println("\nPart Time Employee: ");
         super.display();
         Calculate_Pay();
     }
