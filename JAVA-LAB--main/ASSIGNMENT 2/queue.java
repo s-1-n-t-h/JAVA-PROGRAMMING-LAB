@@ -1,3 +1,4 @@
+package DataStructures;
 import java.util.*;
 interface queues
 {
@@ -9,7 +10,7 @@ interface queues
     void expand();
 }
 
-class queue implements queues
+public class queue implements queues
 {
     int[] a = new int[5];
     // pointer to the index o fthe top element
@@ -46,7 +47,7 @@ class queue implements queues
         a = B;
     }
 
-    public static void main(String[] args)
+    public void start()
     {
         queue S = new queue();
         Scanner s = new Scanner(System.in);
@@ -79,5 +80,8 @@ class queue implements queues
         }
         
     }
+    public static void main(String[] args){}
 }
+
+
 

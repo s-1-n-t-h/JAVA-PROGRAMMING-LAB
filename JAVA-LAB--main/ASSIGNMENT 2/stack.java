@@ -1,4 +1,4 @@
-//package DataStructures;
+package DataStructures;
 import java.util.*;
 interface stacks
 {
@@ -11,7 +11,7 @@ interface stacks
     void expand();
 }
 
-class stack implements stacks
+public class stack implements stacks
 {
     int[] a = new int[5];
     // pointer to the index o fthe top element
@@ -53,7 +53,7 @@ class stack implements stacks
         a = b;
     }
 
-    public static void main(String[] args)
+    public void start()
     {
         stack S = new stack();
         Scanner s = new Scanner(System.in);
@@ -87,6 +87,11 @@ class stack implements stacks
                 
             }
         }
+        
+    }
+
+    public static void main(String[] args)
+    {
         
     }
 }
