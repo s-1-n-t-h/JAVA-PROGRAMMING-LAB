@@ -1,4 +1,4 @@
-class primitive
+ class primitive
 {
     static String s;
     static int i;
