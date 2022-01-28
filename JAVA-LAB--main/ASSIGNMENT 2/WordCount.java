@@ -12,7 +12,7 @@ public class WordCount {
         System.out.print("Enter String: ");
         
         WordCount wC = new WordCount();
-        String S = new String();
+        String S = new String();java
         S = sc.nextLine();
         System.out.println();
         

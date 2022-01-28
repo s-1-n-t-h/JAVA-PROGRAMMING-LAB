@@ -5,5 +5,6 @@ public class string {
         StrRev s = new StrRev();
 
         s.reverseString();
+        System.out.println();
     }
 }
