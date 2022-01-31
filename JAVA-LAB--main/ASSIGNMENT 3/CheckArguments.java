@@ -1,20 +1,15 @@
 class CheckArguments extends RuntimeException
 {
-    String s;
-    CheckArguments(String s)
-    {
-        this.s = s;
-    }
     public String toString()
     {
-        return s;
+        return "CheckArgumentsException";
     }
     public static void main(String[] args) {
         if(args.length<5)
         {
             try 
             {
-                throw new CheckArguments("Check Argumenets Exception.");
+                throw new CheckArguments();
             } 
             catch (CheckArguments e) 
             {

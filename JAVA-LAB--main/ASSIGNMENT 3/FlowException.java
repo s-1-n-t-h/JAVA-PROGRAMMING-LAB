@@ -50,7 +50,8 @@ class Stack
 
     void push(int x) 
     {
-        if (top == stk.length-1) 
+        top++;
+        if (top == stk.length) 
         {
             try 
             {
@@ -63,7 +64,6 @@ class Stack
         } 
         else 
         {
-            top++;
             stk[top] = x;
         }
     }
