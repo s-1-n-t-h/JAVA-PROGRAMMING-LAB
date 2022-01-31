@@ -15,10 +15,12 @@ class RangeException extends RuntimeException
             } 
             else
             {
-                try {
+                try 
+                {
                     throw new RangeException();
                 } 
-                catch (RangeException e) {
+                catch (RangeException e) 
+                {
                     System.out.println(e);
                     return;
                 }
