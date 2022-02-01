@@ -5,8 +5,8 @@ class RuntimePoly extends Base
         System.out.println("Runtime Polymorphism");
     }
     public static void main(String[] args) {
-        RuntimePoly rp = new RuntimePoly();
-        rp.method();
+        Base b = new RuntimePoly();
+        b.method();
     }
 }
 
