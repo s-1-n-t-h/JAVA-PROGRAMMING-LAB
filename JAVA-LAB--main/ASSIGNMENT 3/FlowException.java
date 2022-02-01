@@ -59,7 +59,7 @@ class Stack
             } 
             catch (OverFlowException e) 
             {
-                System.out.println(e.toString());
+                System.out.println(e);
             }
         } 
         else 
@@ -83,7 +83,7 @@ class Stack
             } 
             catch (UnderFlowException e) 
             {
-                System.out.println(e.toString());
+                System.out.println(e);
             }
         }
 

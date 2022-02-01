@@ -1,20 +1,15 @@
 class UserDefinedException extends Exception
-{
-    String s;
-    UserDefinedException(String message)
-    {
-        s = message;
-    }
+{   
     public String toString()
     {
-        return "Inside toString() method.";
+        return "UserDefinedExceptiion";
     }
     public static void main(String[] args)
     {
         try
         {
             System.out.println("Inside try block.");
-            throw new UserDefinedException("UserDefinedException");
+            throw new UserDefinedException();
         }
         catch(UserDefinedException e)
         {
