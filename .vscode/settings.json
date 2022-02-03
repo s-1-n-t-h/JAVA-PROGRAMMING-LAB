@@ -2,6 +2,7 @@
     "git.ignoreLimitWarning": true,
     "java.project.sourcePaths": [
         "JAVA-LAB--main/EXCERCISE 8",
-        "JAVA-LAB--main/ASSIGNMENT 3"
+        "JAVA-LAB--main/ASSIGNMENT 3",
+        "JAVA-LAB--main/EXCERCISE 6"
     ]
 }
