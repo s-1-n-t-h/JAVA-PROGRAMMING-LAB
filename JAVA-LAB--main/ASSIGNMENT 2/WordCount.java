@@ -12,8 +12,8 @@ public class WordCount {
         System.out.print("Enter String: ");
         
         WordCount wC = new WordCount();
-        String S = new String();java
-        S = sc.nextLine();
+        String S = sc.nextLine();
+        
         System.out.println();
         
         System.out.print("No.of Characters: "+wC.CountChar(S));
